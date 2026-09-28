@@ -11,3 +11,4 @@ class Solution:
 # n = 5
 # Output 1
 # Expected: 1
+# https://app.notion.com/p/Count-number-of-odd-digits-in-a-number-3e9f79cdb3f980fc9eabec05dd84a68b
