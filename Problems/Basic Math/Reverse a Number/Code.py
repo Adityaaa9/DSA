@@ -12,6 +12,15 @@ class Solution:
 
         return sign * reverse
 
-# n = 25
-# Output: 52
+if __name__ == "__main__":
+    n = 6678
+    
+    """ Creating an instance of 
+    Solution class """
+    sol = Solution()
+    
+    # Function call to reverse the digits in n
+    ans = sol.reverseNumber(n)
+    print("The reverse of given number is:", ans)
+
 # https://app.notion.com/p/Reverse-a-number-3e9f79cdb3f980108519c1549d78efa1

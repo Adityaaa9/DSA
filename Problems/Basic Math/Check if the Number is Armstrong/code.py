@@ -1,3 +1,5 @@
+import math
+
 class Solution:
     def isArmstrong(self, n):
         original = n
@@ -10,10 +12,21 @@ class Solution:
             n //= 10
         return total == original
 
-# n = 153
-# Output: true
-
-# n = 12
-# Output: false
-
+# Main function
+if __name__ == "__main__":
+    n = 153
+    
+    # Creating an instance of 
+    # Solution class
+    sol = Solution()
+    
+    # Function call to find whether the
+    # given number is Armstrong or not
+    ans = sol.isArmstrong(n)
+    
+    if ans:
+        print(f"{n} is an Armstrong number.")
+    else:
+        print(f"{n} is not an Armstrong number.")
+        
 # https://app.notion.com/p/Check-if-the-Number-is-Armstrong-3e9f79cdb3f9809abcc0c54dd5374ccf

@@ -8,7 +8,15 @@ class Solution:
                 count += 1
             n //= 10
         return count
-# n = 5
-# Output 1
-# Expected: 1
+# Input number
+n = 6678
+ 
+# Creating an instance of 
+# Solution class
+sol = Solution()
+ 
+# Function call to get count of odd digits in n
+ans = sol.countOddDigit(n)
+print("The count of odd digits in the given number is:", ans)
+
 # https://app.notion.com/p/Count-number-of-odd-digits-in-a-number-3e9f79cdb3f980fc9eabec05dd84a68b

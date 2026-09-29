@@ -13,7 +13,18 @@ class Solution:
 
         return original == reverse
 
-# n = 121
-# Output: true
+# Input number
+n = 12321
+ 
+# Creating an instance of Solution class
+sol = Solution()
+ 
+# Function call to check if n is a palindrome
+ans = sol.isPalindrome(n)
+ 
+if ans:
+    print("The given number is a palindrome")
+else:
+    print("The given number is not a palindrome")
 
 # https://app.notion.com/p/Palindrome-Number-3e9f79cdb3f98085a182d1a118e5eb4f

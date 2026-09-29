@@ -11,10 +11,16 @@ class Solution:
 
         return largest
 
-# n = 25
-# Output: 5
-
-# n = 99
-# Output: 9
+if __name__ == "__main__":
+    n = 348
+ 
+    # Creating an instance of 
+    # Solution class
+    sol = Solution()
+ 
+    # Function call to find the largest digit in n
+    ans = sol.largestDigit(n)
+ 
+    print("The largest digit in the number is:", ans)
 
 # https://app.notion.com/p/Return-the-Largest-Digit-in-a-Number-3e9f79cdb3f980eba41ec94508a67668
