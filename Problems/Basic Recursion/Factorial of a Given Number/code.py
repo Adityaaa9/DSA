@@ -1,14 +1,14 @@
 class Solution:
-    def NnumbersSum(self, N):
-        # Base case: if N is 0, return 0
-        if N == 0:
-            return 0
-        # Recursive case: add N to the sum of N-1
-        return N + self.NnumbersSum(N - 1)
+    def factorial(self, n):
+        # Base case: factorial of 0 or 1 is 1
+        if n<= 1:
+            return 1
+        # Recursive case: n * factorial of n-1
+        return n* self.factorial(n- 1)
 
 if __name__ == "__main__":
     solution = Solution()
-    N = 10 # Example input
-    print(f"Sum of first {N} numbers is {solution.NnumbersSum(N)}")
+    N = 5 # Example input
+    print(f"Factorial of {N} is {solution.factorial(N)}")
 
 # https://app.notion.com/p/Factorial-of-a-Given-Number-400f79cdb3f98063943cf01d9cc79a3a
